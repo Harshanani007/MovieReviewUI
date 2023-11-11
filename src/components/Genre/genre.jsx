@@ -1,24 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './genre.css';
-const Genre = (props) => {
-
-  const [isLoading, setIsLoading] = useState(true);
-  const [isRole, setIsRole] = useState(null)
-  const navigate = useNavigate();
-  useEffect(() => {
-    if (props.creds != null && props.isLoggedIn) {
-
-      setIsRole(props.creds.user_role[0].authority);
-      setIsLoading(false);
-
-
-    }
-  }, [props.creds, props.isLoggedIn]);
-
+const Genre = () => {
   const view = (searchValue) => {
 
-    navigate(`/view-search-result/${searchValue}?isRole=${isRole}&isLoggedIn=${props.isLoggedIn}`)
+    navigate(`/view-search-result/${searchValue}`)
   }
 
   const genres = [
