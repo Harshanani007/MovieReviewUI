@@ -16,6 +16,7 @@ const SearchResult = () => {
     let [rmovie, setRmovie] = useState([]);
     const [showModal, setShowModal] = useState(false);
     const [selectedMovie, setSelectedMovie] = useState(null);
+    
     const fetchMovies = async () => {
 
         try {
