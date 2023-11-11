@@ -9,23 +9,23 @@ const Genre = () => {
 
   const genres = [
     {
-      title: 'Action',
+      title: 'action',
       image: 'https://pbblogassets.s3.amazonaws.com/uploads/2019/07/12130642/John-Wick.jpg',
     },
     {
-      title: 'Comedy',
+      title: 'comedy',
       image: 'https://m.media-amazon.com/images/M/MV5BNGUyNTk0YmYtNjU2YS00NWQ1LTllZGQtYjk5YjU4YzYxZjY3XkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_.jpg',
     },
     {
-      title: 'Drama',
+      title: 'drama',
       image: 'https://freedramamoviesblog.files.wordpress.com/2014/11/free-drama-movies-3.png',
     },
     {
-      title: 'Horror',
+      title: 'horror',
       image: 'https://m.media-amazon.com/images/I/710NBpYrSjL._AC_UF1000,1000_QL80_.jpg',
     },
     {
-      title: 'Romance',
+      title: 'romance',
       image: 'https://genregeek.weebly.com/uploads/2/8/0/3/28037185/7430436_orig.jpg',
     },
     {
@@ -33,11 +33,11 @@ const Genre = () => {
       image: 'https://i0.wp.com/www.pandorapost.com/wp-content/uploads/2021/04/science-fiction-genres-and-subgenres.jpg?resize=620%2C358&ssl=1',
     },
     {
-      title: 'Thriller',
+      title: 'thriller',
       image: 'https://resizing.flixster.com/BrQgVSdrjZgqlU7jFbLVdBWQ0Wk=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vUlRUVjYyNjE4LndlYnA=',
     },
     {
-      title: 'Animation',
+      title: 'animation',
       image: 'https://jw-webmagazine.com/wp-content/uploads/2020/04/chihiro042-1.jpg',
     },
   ];

@@ -36,7 +36,7 @@ const MovieForm = (props) => {
   const [unit, setUnit] = useState("");
   const [genresFromApi,setGenresFromApi] = useState([]); //added
   const [data,setData]= useState([
-    { value: "Action", label: "action" },
+    { value: "action", label: "Action" },
     { value: "adventure", label: "Adventure" },
     { value: "animation", label: "Animation" },
     { value: "comedy", label: "Comedy" },
